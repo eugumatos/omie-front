@@ -4,16 +4,16 @@
   padding: 2.5rem;
 }
 
-.searchForm {
+form {
   width: 100%;
 }
 
-.searchForm > strong{
+form > strong{
   line-height: 1.6;
   color: var(--gray-100);
 }
 
-.searchForm textarea{
+form input {
   width: 100%;
   background: var(--gray-900);
   border: 0;
@@ -26,17 +26,17 @@
   margin-top: 1rem;
 }
 
-.searchForm footer{  
+form footer{  
   visibility: hidden;
   max-height: 0;
 }
 
-.searchForm:focus-within footer{
+form:focus-within footer{
   visibility: visible;
   max-height: none;
 }
 
-.searchForm button[type=submit]{
+form button[type=submit]{
   padding: 1rem 1.5rem;
   margin-top: 1rem;
   border-radius: 8px;
